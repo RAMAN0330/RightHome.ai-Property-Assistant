@@ -1,0 +1,63 @@
+# Core dependencies
+streamlit>=1.31.0
+pandas
+numpy
+plotly
+plotly-express
+google-generativeai
+python-dotenv
+
+# Data visualization
+matplotlib
+seaborn
+kaleido
+nbformat
+
+# Mapping and Geospatial
+folium
+geopy
+mapbox
+
+# Data handling
+pyarrow
+fastparquet
+pydantic>=2.7.4
+
+# Utilities
+python-dateutil
+tqdm
+requests
+aiohttp
+tenacity
+
+# AI and LLM
+langchain>=0.3.11
+langchain-community>=0.3.11
+ollama>=0.1.0
+transformers>=4.36.0
+torch>=2.1.0
+
+# API and Web
+fastapi>=0.105.0
+uvicorn>=0.24.0
+requests>=2.31.0
+aiohttp>=3.9.1
+
+# Database
+sqlalchemy>=2.0.23
+alembic>=1.13.0
+psycopg2-binary>=2.9.9
+
+# Additional Utils
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# Optimization
+numba
+cachetools
+
+# Optional: Development tools
+pytest
+black
+flake8
